@@ -69,6 +69,6 @@
   },
   "lint-staged": {
     "./src/*.js": "pnpm run lint:fix",
-    "*.{js,css,md*}": "pnpm run format"
+    "./src/*.{js,css,md*}": "pnpm run format"
   }
 }

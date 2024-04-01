@@ -5,7 +5,7 @@ module.exports = {
     'prettier',
     'eslint:recommended',
     'plugin:prettier/recommended',
-    // 'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended',
     'plugin:tailwindcss/recommended',
   ],
   plugins: ['simple-import-sort', 'prettier', '@typescript-eslint'],

@@ -1,13 +1,15 @@
-import type { Metadata } from "next";
-import { PropsWithChildren } from "react";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import "@/styles/globals.css";
-import { ThemeProvider } from "@/components/theme-provider";
+
+import { PropsWithChildren } from "react";
+import type { Metadata } from "next";
+
 import Footer from "@/components/footer";
 import Header from "@/components/Header/Header";
+import { ThemeProvider } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "My NextJS Starter Template",

@@ -5,7 +5,6 @@ import { ThemeToggle } from "@/components/Header/theme-toggle";
 function Header() {
   return (
     <header className="text-center">
-      Header
       <ThemeToggle />
     </header>
   );

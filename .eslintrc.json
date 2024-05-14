@@ -1,9 +1,11 @@
 {
   "extends": [
     "next/core-web-vitals",
-    "plugin:storybook/recommended",
-    //"plugin:prettier/recommended",
-    "plugin:tailwindcss/recommended"
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
   ],
-  "plugins": ["tailwindcss"]
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "root": true
 }
